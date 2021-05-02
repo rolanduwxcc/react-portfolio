@@ -69,9 +69,9 @@ const Projects = () => {
       <div className="flex-row">
         {projectList.map((project, i) => (
           <p>
-            <a href={project.deployedAtLink} target='_blank'>{project.name}</a>
-            <a href={project.gitHubRepoLink} target='_blank'>
-              <img src={ghLogo} alg="GitHub Logo"/>
+            <a href={project.deployedAtLink} target='_blank' rel="noreferrer">{project.name}</a>
+            <a href={project.gitHubRepoLink} target='_blank' rel="noreferrer">
+              <img src={ghLogo} alt="GitHub Logo"/>
             </a>
             {project.description}
 
