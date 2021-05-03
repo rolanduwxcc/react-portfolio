@@ -1,8 +1,8 @@
 import React from 'react';
-import ghLogo from '../assets/img/github/GitHub-Mark-32px.png';
-import stackOverflowLogo from '../assets/img/github/GitHub-Mark-32px.png';
-import linkedInLogo from '../assets/img/github/GitHub-Mark-32px.png';
-import gmailLogo from '../assets/img/github/GitHub-Mark-32px.png';
+// import ghLogo from '../assets/img/github/GitHub-Mark-32px.png';
+// import stackOverflowLogo from '../assets/img/github/GitHub-Mark-32px.png';
+// import linkedInLogo from '../assets/img/github/GitHub-Mark-32px.png';
+// import gmailLogo from '../assets/img/github/GitHub-Mark-32px.png';
 
 
 // Props are passed through our functional component.
@@ -11,7 +11,7 @@ function Footer() {
     return (
             <nav className="navbar fixed-bottom">
                     <ul className="nav">
-                        <h2 class="navbar-brand">Find me on:</h2>
+                        <h2 className="navbar-brand">Find me on:</h2>
                         <li className="nav-item">
                             <a href="mailto:rolanduwxcc@gmail.com?subject=Saw your portfolio&body=Can we talk" className="nav-link" target='_blank' rel="noreferrer">Gmail</a>
                         </li>

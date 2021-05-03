@@ -65,24 +65,29 @@ const Projects = () => {
 
   return (
     <div>
-        <br />
+      <br />
       <h1>Projects</h1>
-      <div className="flex-row">
+      <div className="card-columns">
         {projectList.map((project, i) => (
-          <p>
-            <a href={project.deployedAtLink} target='_blank' rel="noreferrer">{project.name}</a>
-            <a href={project.gitHubRepoLink} target='_blank' rel="noreferrer">
-              <img src={ghLogo} alt="GitHub Logo"/>
-            </a>
-            {project.description}
-
+          <div className="card mb-3" style={{ width: '18rem' }}>
             <img
               src={project.screenshot}
               alt={project.name}
-              className="img-thumbnail mx-1"
+              className="card-img-top"
               key={project.name}
             />
-          </p>
+            <div className="card-body">
+              <a className="card-title" href={project.deployedAtLink} target='_blank' rel="noreferrer">
+                {project.name}
+              </a>
+              <p className="card-text">
+                <a href={project.gitHubRepoLink} target='_blank' rel="noreferrer">
+                  <img src={ghLogo} alt="GitHub Logo" />
+                </a>
+                <span>   </span>{project.description}
+              </p>
+            </div>
+          </div>
         ))}
       </div>
     </div>
