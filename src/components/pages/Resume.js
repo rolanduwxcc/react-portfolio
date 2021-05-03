@@ -2,12 +2,20 @@ import React from "react";
 
 const Resume = () => (
   <div>
+    <br />
     <h1>Curriculum Vitae</h1>
+    <br />
+
     <div>
-      <a href="../../assets/resume.txt" download>Resume</a>
+      <a href="../../assets/resume.txt" download>
+        <h3>Resume</h3>
+      </a>
     </div>
+
+    <br />
+
     <div>
-    <h3>Front-End Knowledge</h3>
+      <h3>Front-End Knowledge</h3>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -18,6 +26,7 @@ const Resume = () => (
         <li>Bootstrap</li>
       </ul>
     </div>
+
     <div>
       <h3>Back-End Knowledge</h3>
       <ul>

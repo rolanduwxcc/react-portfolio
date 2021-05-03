@@ -65,6 +65,7 @@ const Projects = () => {
 
   return (
     <div>
+        <br />
       <h1>Projects</h1>
       <div className="flex-row">
         {projectList.map((project, i) => (

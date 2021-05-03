@@ -25,17 +25,17 @@ function Portfolio() {
   };
 
   return (
-    <div>
+    <div className="container-fluid">
       <header>
       <h1 id="about">W Rowland</h1>
       {/* Pass the state value and the setter as props to NavTabs */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
-      <main>
+      <main className="container-fluid">
       {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
       </main>
-      <footer>
+      <footer className="footer mt-auto py-3">
       <Footer />
       </footer>
     </div>
