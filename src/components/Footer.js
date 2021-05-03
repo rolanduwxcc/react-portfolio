@@ -9,7 +9,7 @@ import React from 'react';
 function Footer() {
 
     return (
-            <nav className="navbar fixed-bottom">
+            <nav className="navbar">
                     <ul className="nav">
                         <h2 className="navbar-brand">Find me on:</h2>
                         <li className="nav-item">
