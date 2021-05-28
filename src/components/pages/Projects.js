@@ -6,6 +6,9 @@ import thatOneAnswer from '../../assets/img/that-one-answer.jpg';
 import weatherDashboard from '../../assets/img/weather-dashboard.png';
 import workDay from '../../assets/img/work-day.png';
 import passwordGenerator from '../../assets/img/password-generator.png';
+import familygraph from '../../assets/img/family-graph.png';
+import runbuddy from '../../assets/img/runbuddy-400.png';
+import cliEmployeeDB from '../../assets/img/cli-screenshot.png';
 
 
 const Projects = () => {
@@ -59,7 +62,30 @@ const Projects = () => {
       gitHubRepoLink: 'https://github.com/rolanduwxcc/ch3-password-generator',
       screenshot: passwordGenerator,
     },
-
+    {
+      name: 'Family Graph',
+      category: 'commercial',
+      description: 'MERN Stack',
+      deployedAtLink: 'hhttps://blooming-reaches-99223.herokuapp.com/',
+      gitHubRepoLink: 'https://github.com/rolanduwxcc/family-graph',
+      screenshot: familygraph,
+    },
+    {
+      name: 'Run Buddy',
+      category: 'commercial',
+      description: 'HTML CSS',
+      deployedAtLink: 'hhttps://blooming-reaches-99223.herokuapp.com/',
+      gitHubRepoLink: 'https://github.com/rolanduwxcc/run-buddy',
+      screenshot: runbuddy,
+    },
+    {
+      name: 'CLI Employee Database',
+      category: 'commercial',
+      description: 'JavaScript, Node, Inquirer, MySQL',
+      deployedAtLink: 'https://github.com/rolanduwxcc/ch12-company-database',
+      gitHubRepoLink: 'https://github.com/rolanduwxcc/ch12-company-database',
+      screenshot: cliEmployeeDB,
+    },
 
   ]);
 
